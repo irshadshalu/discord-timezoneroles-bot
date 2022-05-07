@@ -6,7 +6,7 @@ authors = ["Irshad PI"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-discord-py-interactions = "4.1.0"
+discord-py-interactions = "4.2.0"
 aioschedule = "^0.5.2"
 python-dotenv = "^0.20.0"
 pytz = "^2022.1"
