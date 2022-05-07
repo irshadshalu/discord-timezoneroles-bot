@@ -11,28 +11,20 @@ Create timezone roles which updates with current time in that timezone. Use this
 ## Running the bot
 
 1. Install dependencies with
-
     `poetry install`
+
+If you're getting errors with `distutils` package on ubuntu/debian, try this:
+    `sudo apt-get install python3.10-distutils`
 
 2. Create a .env file and add your secret token
 
     BOT_TOKEN="YOUR_TOKEN_HERE"
 
-2. Run the bot with
-
-    `poetry run bot.py`
-    
-or
-
+3. Run the bot with
     `poetry shell`
     `python bot.py`
 
-3. Run the worker which updates role times at regular intervals with
-    
-    `poetry run worker.py`
-
-or
-
+4. Run the worker which updates role times at regular intervals with
     `poetry shell`
     `python worker.py`
 
