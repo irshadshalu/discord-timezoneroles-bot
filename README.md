@@ -4,6 +4,7 @@ Create timezone roles which updates with current time in that timezone. Use this
 
 Time will be updated only every 30 minutes due to Discord rate-limiting.
 
+NB: This bot is not publicly hosted. If you would like to use it, please feel free to host it yourself by following the instructions below.
 
 ## Usage
 
