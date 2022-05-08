@@ -9,6 +9,8 @@ bot = interactions.Client(token=os.getenv('BOT_TOKEN'))
 @bot.command(
     name="create_role",
     description="Create a new role for a particular timezone",
+    default_member_permissions=interactions.Permissions.MANAGE_ROLES | interactions.Permissions.MANAGE_ROLES
+    dm_permission=False,
     options=[
         interactions.Option(
             name="timezone",
