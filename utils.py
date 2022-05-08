@@ -51,7 +51,10 @@ def get_current_name(timezone):
 
 async def update_role_name(guild: interactions.Guild, role: interactions.Role):
     timezone = get_timezone(role.name[:role.name.find(TZ_SUFFIX)])
-    await guild.modify_role(role.id, get_current_name(timezone))
+    try:
+        await guild.modify_role(role.id, get_current_name(timezone))
+    except:
+        print('updating role failed')
 
 async def create_role_for_timezone(guild: interactions.Guild, timezone):
     await guild.create_role(get_current_name(timezone))

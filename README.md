@@ -2,6 +2,8 @@
 
 Create timezone roles which updates with current time in that timezone. Use this bot to make timezone of a user visible in their profile.
 
+Time will be updated only every 30 minutes due to Discord rate-limiting.
+
 
 ## Usage
 
