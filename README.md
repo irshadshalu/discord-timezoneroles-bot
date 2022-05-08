@@ -24,7 +24,5 @@ If you're getting errors with `distutils` package on ubuntu/debian, try this:
     `poetry shell`
     `python bot.py`
 
-4. Run the worker which updates role times at regular intervals with
-    `poetry shell`
-    `python worker.py`
+The interactions-tasks repo is copied from `https://github.com/Catalyst4222/interactions-tasks`
 
